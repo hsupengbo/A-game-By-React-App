@@ -172,18 +172,7 @@ private:
 
 > 由于同时参加、准备其他公司的笔试或面试,所以时间比较分散
 
-```mermaid
-gantt
-	dateFormat MM-DD
-	title 日程图
-	配置安装虚拟机 ubuntu :	done, des1, 10-06,2h
-	配置编译Websocket库和其他必要库(boost) : 	done,des2,after des1,2h
-	尝试简单跑Sokcet的样例程序 : 	done, after des2 , 2h
-	配置和学习React:done,des4, 10-15,3h
-	加入自动下棋流程, 调试Minimax算法: done,des5, 10-16,2h
-	调试完善: done,after des5,2h
-```
-
+![image-20211016143637731](https://cdn.jsdelivr.net/gh/xupengbo-cn/image-home/img/202110161436866.png)
 ## 演示
 
 X:用户,O:机器，以用户输给机器为例:
